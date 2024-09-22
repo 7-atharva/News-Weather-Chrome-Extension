@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Daily News New Tab",
+    "version": "1.0",
+    "description": "Displays daily updated news on new tab with amazing animations",
+    "permissions": [
+      "https://newsapi.org/"
+    ],
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    }
+  }
