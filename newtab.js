@@ -1,5 +1,5 @@
-const API_KEY = 'c936bd5d7e974952ba27f5c9564146d3'; // Replace with your actual News API key
-const WEATHER_API_KEY = '4e0a76b0a7f005ab1463cb91c6680352'; // Replace with your actual OpenWeatherMap API key
+const API_KEY = ''; // Replace with your actual News API key
+const WEATHER_API_KEY = ''; // Replace with your actual OpenWeatherMap API key
 const API_URL = `https://newsapi.org/v2/top-headlines?country=us&pageSize=70&apiKey=${API_KEY}`;
 
 let shownArticles = [];
